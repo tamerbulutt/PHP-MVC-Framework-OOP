@@ -1,0 +1,9 @@
+<?php
+    //Require libraries
+    include_once "libraries/Core.php";
+    include_once "libraries/Controller.php";
+    include_once "libraries/Database.php";
+
+    include_once "config/config.php";
+    
+    $init = new Core();
